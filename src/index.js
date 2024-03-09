@@ -31,7 +31,7 @@ breedSelectEl.addEventListener("change", (e) => {
     const { url, breeds} = data[0];
     const { name, description, temperament} = breeds[0];
     catInfoEl.innerHTML = `
-    <img src='${url}' alt='{name}' width="400"/>
+    <img src='${url}' alt='{name}' width="800"/>
     <div class='box'>
         <h2>${name}</h2>
         <p>${description}</p>
